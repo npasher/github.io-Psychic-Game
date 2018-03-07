@@ -1,0 +1,24 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=dewvice-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Psychic Game</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </head>
+    <body>
+        <div id="game">
+            <h1><strong>PSYCHIC GAME!</strong></h1>
+            <h2>Guess What Letter I Have Chosen.</h2>
+            <h3>Stats</h3>
+            <p>Win Total:<span id="wins"></span></p>
+            <p>Loss Total:<span id="losses"></span></p>
+            <p>Guesses Available:<span id="guessCounter"></span></p> 
+            <p>Guesses Used:<span id="guessArray"></span></p>           
+        </div>
+        <button id="start" onclick=gameStart()>START</button>
+        <button id="reset" diabled onclick=reset()>RESET</button>
+    </body>
+</html>
